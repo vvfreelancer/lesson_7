@@ -1,0 +1,103 @@
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Regular.woff2") format('woff2'), url("../fonts/Lato-Regular.woff") format('woff');
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Bold.woff2") format('woff2'), url("../fonts/Lato-Bold.woff") format('woff');
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Black.woff2") format('woff2'), url("../fonts/Lato-Black.woff") format('woff');
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+body {
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 1.6;
+   color: #424551;
+}
+
+[class*="__container"] {
+   max-width: 810px;
+   margin: 0 auto;
+}
+.title {
+   color: #1E212C;
+}
+.header {
+   margin-bottom: 90px;
+   background: linear-gradient( 180deg, rgb(4, 165, 77) 0%, rgba(3, 185, 209, 0.415) 50%, rgba(107, 230, 7, 0) 100% );
+}
+.header-title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   text-shadow: 2px 2px 20px #11e06e;
+}
+.main-one {
+   margin-bottom: 48px;
+}
+img {
+   margin-bottom: 60px;
+   max-width: 100%;
+   border: 3px solid green;
+   opacity: 0.5;
+}
+.main-one-title, 
+.main-two-title {
+   font-weight: 700;
+   font-size: 20px;
+}
+.main-one-title {
+   margin-bottom: 25px;
+   padding-left: 3px;
+   border-left: 1px dashed #037244;
+   border-radius: 10px;
+}
+.main-text {
+   margin-bottom: 25px;
+   background-image: radial-gradient(ellipse at center, rgb(157, 236, 187) 0%,rgb(60, 173, 8) 50%,rgb(4, 53, 48) 100%);
+}
+.main-two-title {
+   border-right: 3px dotted #01bd20;
+   display: inline-block;
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+.list {
+   padding-left: 30px;
+   margin-bottom: 24px;
+   background: rgba(3, 243, 131, 0.068);
+}
+.main-three-section,
+.main-three-block {
+   margin-bottom: 50px;
+}
+
+.main-three__container {
+   padding: 30px;
+   max-width: 1400px;
+   background: url("../img/block.jpg") 0 0/cover no-repeat fixed;
+}
+.main-three p {
+   color: wheat;
+   text-align: center;
+}
+.main-three-block__container {
+     background: url('../img/main-three.jpg') right/150px no-repeat, url('../img/main-three-2.jpg') left no-repeat, url('../img/main-three-bg.jpg') 50%/cover no-repeat;
+     color: hsla(147, 67%, 35%, 0.459);
+     height: 300px;
+     overflow: auto;
+     background-attachment: local;
+}
